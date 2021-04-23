@@ -31,7 +31,6 @@ void main(void)
 	hello_world_label = lv_label_create(lv_scr_act(), NULL);
 	lv_label_set_text(hello_world_label, "Hello world!");
 	lv_obj_align(hello_world_label, NULL, LV_ALIGN_IN_TOP_MID, 5, 5);
-	lv_disp_set_bg_color(disp, color);
 
 	/*Describe the color for the needles*/
     static lv_color_t needle_colors[3];
